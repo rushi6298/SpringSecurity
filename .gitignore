@@ -1,0 +1,27 @@
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# Maven target folder
+/target/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Mac files
+.DS_Store
+
+# Application properties (if contains secrets)
+application.properties
+application.yml
+
+# Build files
+*.jar
+*.war
+
+# Docker
+*.pid
