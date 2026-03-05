@@ -23,6 +23,6 @@ public class UserController {
     public String login(@RequestBody Users user)
     {
         System.err.println("user in controller: "+user);
-        return "Sucess";
+        return userService.verify(user);
     }
 }
