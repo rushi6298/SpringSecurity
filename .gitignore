@@ -15,9 +15,7 @@
 # Mac files
 .DS_Store
 
-# Application properties (if contains secrets)
-application.properties
-application.yml
+
 
 # Build files
 *.jar
